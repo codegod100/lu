@@ -1,6 +1,6 @@
 FROM openjdk:8-alpine
 
-COPY target/uberjar/lu.jar /lu/app.jar
+COPY ./target/uberjar/lu.jar /lu/app.jar
 
 EXPOSE 3000
 
