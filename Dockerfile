@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM amazoncorretto:21
 
 COPY ./target/uberjar/lu.jar /lu/app.jar
 
